@@ -1,0 +1,7 @@
+{
+    "apps": [{
+        "name": "Ignite Gym",
+        "script": "npm",
+        "args": "start"
+    }]
+}

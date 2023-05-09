@@ -6,6 +6,8 @@ class UsersController {
   async create(request, response) {
     const { name, email, password } = request.body;
 
+    console.log(request.body)
+
     if (!name || !email || !password) {
       throw new AppError("Informe todos os campos (nome, email e senha).");
     }
